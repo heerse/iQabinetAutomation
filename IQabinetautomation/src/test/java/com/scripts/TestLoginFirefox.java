@@ -31,7 +31,7 @@ public class TestLoginFirefox {
 	@Before
 	public void setUp() throws Exception {
 		 driver = new FirefoxDriver();
-		 String baseUrl = "http://iqabinet-web.herokuapp.com/";
+		 String baseUrl = "http://********.com/";
 		 selenium = new WebDriverBackedSelenium(driver, baseUrl);
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		 //selenium.wait(2000);
